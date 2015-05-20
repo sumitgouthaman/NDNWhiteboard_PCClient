@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.sumitgouthaman.Whiteboard">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="504" height="655"/>
+    </constraints>
+    <properties>
+      <preferredSize width="500" height="655"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="7fa06" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c78ad" class="javax.swing.JButton" binding="penButton">
+            <constraints/>
+            <properties>
+              <text value="Pen"/>
+            </properties>
+          </component>
+          <component id="c7dc9" class="javax.swing.JButton" binding="eraserButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Eraser"/>
+            </properties>
+          </component>
+          <component id="d900d" class="javax.swing.JButton" binding="colorButton">
+            <constraints/>
+            <properties>
+              <label value=""/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="8006e" class="javax.swing.JButton" binding="undoButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="undo"/>
+            </properties>
+          </component>
+          <component id="d47fe" class="javax.swing.JButton" binding="clearButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Clear"/>
+            </properties>
+          </component>
+          <component id="98939" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Exit"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="6e585" binding="canvasPanel" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-1"/>
+          <maximumSize width="500" height="600"/>
+          <minimumSize width="500" height="600"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="f5a3e" class="javax.swing.JLabel" binding="statusLabel">
+        <constraints border-constraint="South"/>
+        <properties>
+          <text value="..status"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
