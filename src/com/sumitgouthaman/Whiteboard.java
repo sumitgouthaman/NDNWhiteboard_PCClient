@@ -150,6 +150,8 @@ public class Whiteboard {
                 } else if (type.equals("text")){
                     String message = jsonObject.getString("data");
                     ndnWhiteboard.setStatus(jsonObject.getString("user") + ": " + message);
+                } else if (type.equals("speech")) { 
+                    // Can't handle speech on PC
                 } else {
                     throw new JSONException("Unrecognized string: " + string);
                 }
